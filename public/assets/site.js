@@ -31,5 +31,6 @@
       b.replaceWith(frame);
     });
   });
+  if (!reduce) [].slice.call(document.querySelectorAll('button[data-autoplay]')).forEach(function (b) { b.click(); });
   var y = document.getElementById('yr'); if (y) y.textContent = new Date().getFullYear();
 })();

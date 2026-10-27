@@ -124,17 +124,20 @@ def write(rel, s):
     open(p, 'w', encoding='utf-8').write(s)
 
 
-def player(url, poster_html, label):
+def player(url, poster_html, label, autoplay=False):
     em = embed_url(url)
+    if em and autoplay:
+        # browsers only allow autoplay when muted; viewers unmute with the player controls
+        em += '&muted=1&loop=1' if 'vimeo' in em else '&mute=1&loop=1&playlist=' + em.split('/embed/')[1].split('?')[0]
     if not em:
         return f'<div class="player"><a href="{e(url)}" target="_blank" rel="noopener" aria-label="{e(label)}">{poster_html}</a></div>'
-    return f'<div class="player"><button type="button" class="playbtn" data-embed="{e(em)}" aria-label="{e(label)}">{poster_html}</button></div>'
+    return f'<div class="player"><button type="button" class="playbtn" data-embed="{e(em)}"{' data-autoplay' if autoplay else ''} aria-label="{e(label)}">{poster_html}</button></div>'
 
 
 def build_home():
     base = ''
     reel = SITE['reel']
-    reel_html = player(reel['url'], ghost(reel['label'], PLAY), 'Play demo reel')
+    reel_html = player(reel['url'], ghost(reel['label'], PLAY), 'Play demo reel', autoplay=True)
     body = f'''<div class="wrap">
   <section class="reel" aria-label="Demo reel">{reel_html}</section>
   <div class="work-head"><h1>{e(SITE["tagline"])}</h1></div>
