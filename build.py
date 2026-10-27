@@ -167,7 +167,7 @@ def build_project(i, p):
     # main video
     pv = a.get('hero') or a.get('still') or a.get('poster') or a.get('heroPoster')
     pframe = mframe(img(pv, base, alt=''), PLAY) if pv else ghost(p['title'], PLAY)
-    main_video = player(p['video'], pframe, f'Play {p["title"]}') if p.get('video') else ''
+    main_video = player(p['video'], pframe, f'Play {p["title"]}', autoplay=True) if p.get('video') else ''
     # gallery
     def item(g):
         cls = 'sq' if g.get('sq') else ''

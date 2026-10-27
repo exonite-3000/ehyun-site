@@ -626,8 +626,10 @@
   },
   "return-to-space": {
    "gallery": [],
-   "tile": "m/return-to-space/tile.mp4",
-   "poster": "m/return-to-space/tile-p.jpg"
+   "heroVideo": "m/return-to-space/hero.mp4",
+   "heroPoster": "m/return-to-space/hero-p.jpg",
+   "tile": "m/return-to-space/hero.mp4",
+   "poster": "m/return-to-space/hero-p.jpg"
   },
   "money-heist-jea": {
    "gallery": [],
@@ -937,10 +939,13 @@
  },
  "notes": [
   "kda-ill-show-you: skipped gallery-02.mp4 (same file as another)",
+  "return-to-space: used the hero as the grid loop",
   "nightcrawler: skipped gallery-03.jpg (same file as another)",
   "mr-nobody: skipped gallery-04.jpg (same file as another)",
   "stranger-than-fiction: skipped gallery-04.jpg (same file as another)",
   "fore: skipped gallery-02.jpg (same file as another)",
-  "sci-channel: skipped gallery-02.jpg (same file as another)"
+  "sci-channel: skipped gallery-02.jpg (same file as another)",
+  "cleaned m/return-to-space/tile-p.jpg",
+  "cleaned m/return-to-space/tile.mp4"
  ]
 }

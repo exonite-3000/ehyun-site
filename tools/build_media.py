@@ -56,7 +56,8 @@ for folder in sorted(listing):
     base=lambda f: re.sub(r'(\.[a-z0-9]+)+$','',f.lower())
     tile=[f for f in files if base(f)=='tile']; hero=[f for f in files if base(f)=='hero']
     gal=[f for f in files if f not in tile+hero]
-    if not tile:
+    hero_motion=bool(hero) and hero[0].lower().endswith(VID)
+    if not tile and not hero_motion:
         for f in gal:
             if f.lower().endswith(VID) and probe(f'{sd}/{f}')[2]<=25:
                 tile.append(f); gal.remove(f); notes.append(f'{slug}: used {f} as the grid loop'); break
@@ -85,6 +86,8 @@ for folder in sorted(listing):
         if r=='sq': g['sq']=True
         elif r: g['ratio']=r
         a['gallery'].append(g)
+    if not tile and a.get('heroVideo'):
+        a['tile']=a['heroVideo']; a['poster']=a['heroPoster']; notes.append(f'{slug}: used the hero as the grid loop')
     if 'poster' not in a and a['gallery']:
         g=a['gallery'][0]
         if g['type']=='image': a['poster']=g['src']
