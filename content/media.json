@@ -625,7 +625,40 @@
    "poster": "m/crime-of-the-century-2/tile-p.jpg"
   },
   "return-to-space": {
-   "gallery": [],
+   "gallery": [
+    {
+     "type": "video",
+     "src": "m/return-to-space/g01.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/return-to-space/g02.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/return-to-space/g03.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/return-to-space/g04.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/return-to-space/g05.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/return-to-space/g06.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/return-to-space/g07.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/return-to-space/g08.mp4"
+    }
+   ],
    "heroVideo": "m/return-to-space/hero.mp4",
    "heroPoster": "m/return-to-space/hero-p.jpg",
    "tile": "m/return-to-space/hero.mp4",
@@ -637,12 +670,78 @@
    "poster": "m/money-heist-jea/tile-p.jpg"
   },
   "gossip": {
-   "gallery": [],
+   "gallery": [
+    {
+     "type": "video",
+     "src": "m/gossip/g01.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/gossip/g02.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/gossip/g03.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/gossip/g04.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/gossip/g05.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/gossip/g06.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/gossip/g07.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/gossip/g08.mp4"
+    }
+   ],
    "tile": "m/gossip/tile.mp4",
    "poster": "m/gossip/tile-p.jpg"
   },
   "the-men-who-sold-the-world-cup": {
-   "gallery": [],
+   "gallery": [
+    {
+     "type": "video",
+     "src": "m/the-men-who-sold-the-world-cup/g01.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/the-men-who-sold-the-world-cup/g02.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/the-men-who-sold-the-world-cup/g03.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/the-men-who-sold-the-world-cup/g04.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/the-men-who-sold-the-world-cup/g05.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/the-men-who-sold-the-world-cup/g06.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/the-men-who-sold-the-world-cup/g07.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/the-men-who-sold-the-world-cup/g08.mp4"
+    }
+   ],
    "tile": "m/the-men-who-sold-the-world-cup/tile.mp4",
    "poster": "m/the-men-who-sold-the-world-cup/tile-p.jpg"
   },
@@ -944,8 +1043,6 @@
   "mr-nobody: skipped gallery-04.jpg (same file as another)",
   "stranger-than-fiction: skipped gallery-04.jpg (same file as another)",
   "fore: skipped gallery-02.jpg (same file as another)",
-  "sci-channel: skipped gallery-02.jpg (same file as another)",
-  "cleaned m/return-to-space/tile-p.jpg",
-  "cleaned m/return-to-space/tile.mp4"
+  "sci-channel: skipped gallery-02.jpg (same file as another)"
  ]
 }
