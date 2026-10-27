@@ -1,0 +1,946 @@
+{
+ "order": [
+  "space-impulse",
+  "redsec-season-1",
+  "battlefield-6",
+  "whatsapp-message-privately-with-everyone",
+  "alien-romulus",
+  "kda-ill-show-you",
+  "fx-spermworld",
+  "fx-grotesquerie",
+  "fx-alien-earth",
+  "invictus-mirai",
+  "liseys-story",
+  "how-to-survive-a-pandemic",
+  "netflix-asian-is-everything",
+  "rock-roll-hall-of-fame",
+  "mayor-of-kings-town",
+  "crime-of-the-century-2",
+  "return-to-space",
+  "money-heist-jea",
+  "gossip",
+  "the-men-who-sold-the-world-cup",
+  "canoo-built-for-you",
+  "nier-automata",
+  "nightcrawler",
+  "mr-nobody",
+  "stranger-than-fiction",
+  "fore",
+  "sci-channel"
+ ],
+ "removed": [
+  "avelo-smart-shoes",
+  "kpvm-pahrump",
+  "leave-no-trace",
+  "oppenheimer",
+  "tiny-tinas-wonderland",
+  "mortal-kombat-30",
+  "gotham-knights",
+  "good-night-oppy",
+  "forspoken",
+  "the-peripheral",
+  "between-the-world-and-me",
+  "nier-automata-v01",
+  "canoo-built-for-you-2"
+ ],
+ "assets": {
+  "space-impulse": {
+   "gallery": [
+    {
+     "type": "image",
+     "src": "m/space-impulse/g01.jpg",
+     "sq": true
+    },
+    {
+     "type": "image",
+     "src": "m/space-impulse/g02.jpg",
+     "ratio": "96 / 167"
+    },
+    {
+     "type": "image",
+     "src": "m/space-impulse/g03.jpg",
+     "sq": true
+    },
+    {
+     "type": "image",
+     "src": "m/space-impulse/g04.jpg",
+     "sq": true
+    },
+    {
+     "type": "image",
+     "src": "m/space-impulse/g05.jpg",
+     "sq": true
+    },
+    {
+     "type": "image",
+     "src": "m/space-impulse/g06.jpg",
+     "sq": true
+    },
+    {
+     "type": "image",
+     "src": "m/space-impulse/g07.jpg",
+     "sq": true
+    },
+    {
+     "type": "image",
+     "src": "m/space-impulse/g08.jpg",
+     "sq": true
+    },
+    {
+     "type": "image",
+     "src": "m/space-impulse/g09.jpg",
+     "sq": true
+    }
+   ],
+   "still": "m/space-impulse/tile.jpg",
+   "poster": "m/space-impulse/tile.jpg",
+   "heroVideo": "m/space-impulse/hero.mp4",
+   "heroPoster": "m/space-impulse/hero-p.jpg"
+  },
+  "redsec-season-1": {
+   "gallery": [
+    {
+     "type": "video",
+     "src": "m/redsec-season-1/g01.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/redsec-season-1/g02.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/redsec-season-1/g03.mp4"
+    },
+    {
+     "type": "image",
+     "src": "m/redsec-season-1/g04.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/redsec-season-1/g05.jpg"
+    },
+    {
+     "type": "video",
+     "src": "m/redsec-season-1/g06.mp4"
+    },
+    {
+     "type": "image",
+     "src": "m/redsec-season-1/g07.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/redsec-season-1/g08.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/redsec-season-1/g09.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/redsec-season-1/g10.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/redsec-season-1/g11.jpg",
+     "ratio": "1000 / 667"
+    },
+    {
+     "type": "image",
+     "src": "m/redsec-season-1/g12.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/redsec-season-1/g13.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/redsec-season-1/g14.jpg"
+    }
+   ],
+   "still": "m/redsec-season-1/tile.jpg",
+   "poster": "m/redsec-season-1/tile.jpg"
+  },
+  "battlefield-6": {
+   "gallery": [
+    {
+     "type": "video",
+     "src": "m/battlefield-6/g01.mp4",
+     "sq": true
+    },
+    {
+     "type": "video",
+     "src": "m/battlefield-6/g02.mp4",
+     "sq": true
+    },
+    {
+     "type": "video",
+     "src": "m/battlefield-6/g03.mp4",
+     "sq": true
+    },
+    {
+     "type": "video",
+     "src": "m/battlefield-6/g04.mp4",
+     "sq": true
+    },
+    {
+     "type": "video",
+     "src": "m/battlefield-6/g05.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/battlefield-6/g06.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/battlefield-6/g07.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/battlefield-6/g08.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/battlefield-6/g09.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/battlefield-6/g10.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/battlefield-6/g11.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/battlefield-6/g12.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/battlefield-6/g13.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/battlefield-6/g14.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/battlefield-6/g15.mp4"
+    },
+    {
+     "type": "image",
+     "src": "m/battlefield-6/g16.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/battlefield-6/g17.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/battlefield-6/g18.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/battlefield-6/g19.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/battlefield-6/g20.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/battlefield-6/g21.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/battlefield-6/g22.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/battlefield-6/g23.jpg",
+     "ratio": "4 / 3"
+    },
+    {
+     "type": "image",
+     "src": "m/battlefield-6/g24.jpg"
+    }
+   ],
+   "tile": "m/battlefield-6/tile.mp4",
+   "poster": "m/battlefield-6/tile-p.jpg",
+   "heroVideo": "m/battlefield-6/hero.mp4",
+   "heroPoster": "m/battlefield-6/hero-p.jpg"
+  },
+  "whatsapp-message-privately-with-everyone": {
+   "gallery": [
+    {
+     "type": "image",
+     "src": "m/whatsapp-message-privately-with-everyone/g01.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/whatsapp-message-privately-with-everyone/g02.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/whatsapp-message-privately-with-everyone/g03.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/whatsapp-message-privately-with-everyone/g04.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/whatsapp-message-privately-with-everyone/g05.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/whatsapp-message-privately-with-everyone/g06.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/whatsapp-message-privately-with-everyone/g07.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/whatsapp-message-privately-with-everyone/g08.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/whatsapp-message-privately-with-everyone/g09.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/whatsapp-message-privately-with-everyone/g10.jpg"
+    }
+   ],
+   "still": "m/whatsapp-message-privately-with-everyone/tile.jpg",
+   "poster": "m/whatsapp-message-privately-with-everyone/tile.jpg",
+   "heroVideo": "m/whatsapp-message-privately-with-everyone/hero.mp4",
+   "heroPoster": "m/whatsapp-message-privately-with-everyone/hero-p.jpg"
+  },
+  "alien-romulus": {
+   "gallery": [
+    {
+     "type": "video",
+     "src": "m/alien-romulus/g01.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/alien-romulus/g02.mp4",
+     "ratio": "4 / 3"
+    },
+    {
+     "type": "video",
+     "src": "m/alien-romulus/g03.mp4",
+     "ratio": "4 / 3"
+    },
+    {
+     "type": "video",
+     "src": "m/alien-romulus/g04.mp4",
+     "ratio": "4 / 3"
+    },
+    {
+     "type": "video",
+     "src": "m/alien-romulus/g05.mp4",
+     "ratio": "4 / 3"
+    },
+    {
+     "type": "video",
+     "src": "m/alien-romulus/g06.mp4",
+     "ratio": "4 / 3"
+    },
+    {
+     "type": "video",
+     "src": "m/alien-romulus/g07.mp4",
+     "ratio": "4 / 3"
+    },
+    {
+     "type": "video",
+     "src": "m/alien-romulus/g08.mp4",
+     "ratio": "4 / 3"
+    },
+    {
+     "type": "video",
+     "src": "m/alien-romulus/g09.mp4",
+     "ratio": "4 / 3"
+    },
+    {
+     "type": "video",
+     "src": "m/alien-romulus/g10.mp4",
+     "ratio": "4 / 3"
+    },
+    {
+     "type": "video",
+     "src": "m/alien-romulus/g11.mp4",
+     "ratio": "4 / 3"
+    }
+   ],
+   "still": "m/alien-romulus/tile.jpg",
+   "poster": "m/alien-romulus/tile.jpg"
+  },
+  "kda-ill-show-you": {
+   "gallery": [
+    {
+     "type": "video",
+     "src": "m/kda-ill-show-you/g01.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/kda-ill-show-you/g02.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/kda-ill-show-you/g03.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/kda-ill-show-you/g04.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/kda-ill-show-you/g05.mp4"
+    }
+   ],
+   "tile": "m/kda-ill-show-you/tile.mp4",
+   "poster": "m/kda-ill-show-you/tile-p.jpg"
+  },
+  "fx-spermworld": {
+   "gallery": [
+    {
+     "type": "video",
+     "src": "m/fx-spermworld/g01.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/fx-spermworld/g02.mp4"
+    }
+   ],
+   "still": "m/fx-spermworld/tile.jpg",
+   "poster": "m/fx-spermworld/tile.jpg"
+  },
+  "fx-grotesquerie": {
+   "gallery": [
+    {
+     "type": "video",
+     "src": "m/fx-grotesquerie/g01.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/fx-grotesquerie/g02.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/fx-grotesquerie/g03.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/fx-grotesquerie/g04.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/fx-grotesquerie/g05.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/fx-grotesquerie/g06.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/fx-grotesquerie/g07.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/fx-grotesquerie/g08.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/fx-grotesquerie/g09.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/fx-grotesquerie/g10.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/fx-grotesquerie/g11.mp4"
+    }
+   ],
+   "still": "m/fx-grotesquerie/tile.jpg",
+   "poster": "m/fx-grotesquerie/tile.jpg"
+  },
+  "fx-alien-earth": {
+   "gallery": [
+    {
+     "type": "video",
+     "src": "m/fx-alien-earth/g01.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/fx-alien-earth/g02.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/fx-alien-earth/g03.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/fx-alien-earth/g04.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/fx-alien-earth/g05.mp4"
+    }
+   ],
+   "still": "m/fx-alien-earth/tile.jpg",
+   "poster": "m/fx-alien-earth/tile.jpg",
+   "heroVideo": "m/fx-alien-earth/hero.mp4",
+   "heroPoster": "m/fx-alien-earth/hero-p.jpg"
+  },
+  "invictus-mirai": {
+   "gallery": [],
+   "still": "m/invictus-mirai/tile.jpg",
+   "poster": "m/invictus-mirai/tile.jpg"
+  },
+  "liseys-story": {
+   "gallery": [
+    {
+     "type": "image",
+     "src": "m/liseys-story/g01.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/liseys-story/g02.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/liseys-story/g03.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/liseys-story/g04.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/liseys-story/g05.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/liseys-story/g06.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/liseys-story/g07.jpg"
+    }
+   ],
+   "tile": "m/liseys-story/tile.mp4",
+   "poster": "m/liseys-story/tile-p.jpg"
+  },
+  "how-to-survive-a-pandemic": {
+   "gallery": [],
+   "tile": "m/how-to-survive-a-pandemic/tile.mp4",
+   "poster": "m/how-to-survive-a-pandemic/tile-p.jpg"
+  },
+  "netflix-asian-is-everything": {
+   "gallery": [],
+   "tile": "m/netflix-asian-is-everything/tile.mp4",
+   "poster": "m/netflix-asian-is-everything/tile-p.jpg",
+   "heroVideo": "m/netflix-asian-is-everything/hero.mp4",
+   "heroPoster": "m/netflix-asian-is-everything/hero-p.jpg",
+   "heroRatio": "40 / 17"
+  },
+  "rock-roll-hall-of-fame": {
+   "gallery": [
+    {
+     "type": "image",
+     "src": "m/rock-roll-hall-of-fame/g01.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/rock-roll-hall-of-fame/g02.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/rock-roll-hall-of-fame/g03.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/rock-roll-hall-of-fame/g04.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/rock-roll-hall-of-fame/g05.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/rock-roll-hall-of-fame/g06.jpg"
+    }
+   ],
+   "tile": "m/rock-roll-hall-of-fame/tile.mp4",
+   "poster": "m/rock-roll-hall-of-fame/tile-p.jpg"
+  },
+  "mayor-of-kings-town": {
+   "gallery": [],
+   "still": "m/mayor-of-kings-town/tile.jpg",
+   "poster": "m/mayor-of-kings-town/tile.jpg"
+  },
+  "crime-of-the-century-2": {
+   "gallery": [
+    {
+     "type": "video",
+     "src": "m/crime-of-the-century-2/g01.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/crime-of-the-century-2/g02.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/crime-of-the-century-2/g03.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/crime-of-the-century-2/g04.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/crime-of-the-century-2/g05.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/crime-of-the-century-2/g06.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/crime-of-the-century-2/g07.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/crime-of-the-century-2/g08.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/crime-of-the-century-2/g09.mp4"
+    }
+   ],
+   "tile": "m/crime-of-the-century-2/tile.mp4",
+   "poster": "m/crime-of-the-century-2/tile-p.jpg"
+  },
+  "return-to-space": {
+   "gallery": [],
+   "tile": "m/return-to-space/tile.mp4",
+   "poster": "m/return-to-space/tile-p.jpg"
+  },
+  "money-heist-jea": {
+   "gallery": [],
+   "tile": "m/money-heist-jea/tile.mp4",
+   "poster": "m/money-heist-jea/tile-p.jpg"
+  },
+  "gossip": {
+   "gallery": [],
+   "tile": "m/gossip/tile.mp4",
+   "poster": "m/gossip/tile-p.jpg"
+  },
+  "the-men-who-sold-the-world-cup": {
+   "gallery": [],
+   "tile": "m/the-men-who-sold-the-world-cup/tile.mp4",
+   "poster": "m/the-men-who-sold-the-world-cup/tile-p.jpg"
+  },
+  "canoo-built-for-you": {
+   "gallery": [
+    {
+     "type": "video",
+     "src": "m/canoo-built-for-you/g01.mp4"
+    },
+    {
+     "type": "video",
+     "src": "m/canoo-built-for-you/g02.mp4"
+    }
+   ],
+   "tile": "m/canoo-built-for-you/tile.mp4",
+   "poster": "m/canoo-built-for-you/tile-p.jpg"
+  },
+  "nier-automata": {
+   "gallery": [
+    {
+     "type": "image",
+     "src": "m/nier-automata/g01.jpg",
+     "ratio": "800 / 333"
+    },
+    {
+     "type": "image",
+     "src": "m/nier-automata/g02.jpg",
+     "ratio": "800 / 333"
+    },
+    {
+     "type": "image",
+     "src": "m/nier-automata/g03.jpg",
+     "ratio": "800 / 333"
+    },
+    {
+     "type": "image",
+     "src": "m/nier-automata/g04.jpg",
+     "ratio": "800 / 333"
+    },
+    {
+     "type": "image",
+     "src": "m/nier-automata/g05.jpg",
+     "ratio": "800 / 333"
+    },
+    {
+     "type": "image",
+     "src": "m/nier-automata/g06.jpg",
+     "ratio": "800 / 333"
+    },
+    {
+     "type": "image",
+     "src": "m/nier-automata/g07.jpg",
+     "ratio": "800 / 333"
+    },
+    {
+     "type": "image",
+     "src": "m/nier-automata/g08.jpg",
+     "ratio": "800 / 333"
+    },
+    {
+     "type": "image",
+     "src": "m/nier-automata/g09.jpg",
+     "ratio": "800 / 333"
+    },
+    {
+     "type": "image",
+     "src": "m/nier-automata/g10.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/nier-automata/g11.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/nier-automata/g12.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/nier-automata/g13.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/nier-automata/g14.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/nier-automata/g15.jpg"
+    },
+    {
+     "type": "video",
+     "src": "m/nier-automata/g16.mp4"
+    },
+    {
+     "type": "image",
+     "src": "m/nier-automata/g17.jpg"
+    }
+   ],
+   "tile": "m/nier-automata/tile.mp4",
+   "poster": "m/nier-automata/tile-p.jpg"
+  },
+  "nightcrawler": {
+   "gallery": [
+    {
+     "type": "image",
+     "src": "m/nightcrawler/g01.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/nightcrawler/g02.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/nightcrawler/g03.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/nightcrawler/g04.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/nightcrawler/g05.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/nightcrawler/g06.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/nightcrawler/g07.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/nightcrawler/g08.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/nightcrawler/g09.jpg"
+    }
+   ],
+   "still": "m/nightcrawler/tile.jpg",
+   "poster": "m/nightcrawler/tile.jpg"
+  },
+  "mr-nobody": {
+   "gallery": [
+    {
+     "type": "image",
+     "src": "m/mr-nobody/g01.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/mr-nobody/g02.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/mr-nobody/g03.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/mr-nobody/g04.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/mr-nobody/g05.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/mr-nobody/g06.jpg"
+    }
+   ],
+   "still": "m/mr-nobody/tile.jpg",
+   "poster": "m/mr-nobody/tile.jpg"
+  },
+  "stranger-than-fiction": {
+   "gallery": [
+    {
+     "type": "image",
+     "src": "m/stranger-than-fiction/g01.jpg",
+     "ratio": "75 / 32"
+    },
+    {
+     "type": "image",
+     "src": "m/stranger-than-fiction/g02.jpg",
+     "ratio": "75 / 32"
+    },
+    {
+     "type": "image",
+     "src": "m/stranger-than-fiction/g03.jpg",
+     "ratio": "75 / 32"
+    },
+    {
+     "type": "image",
+     "src": "m/stranger-than-fiction/g04.jpg",
+     "ratio": "75 / 32"
+    },
+    {
+     "type": "image",
+     "src": "m/stranger-than-fiction/g05.jpg",
+     "ratio": "75 / 32"
+    },
+    {
+     "type": "image",
+     "src": "m/stranger-than-fiction/g06.jpg",
+     "ratio": "75 / 32"
+    },
+    {
+     "type": "image",
+     "src": "m/stranger-than-fiction/g07.jpg",
+     "ratio": "75 / 32"
+    },
+    {
+     "type": "image",
+     "src": "m/stranger-than-fiction/g08.jpg",
+     "ratio": "75 / 32"
+    },
+    {
+     "type": "image",
+     "src": "m/stranger-than-fiction/g09.jpg",
+     "ratio": "75 / 32"
+    },
+    {
+     "type": "image",
+     "src": "m/stranger-than-fiction/g10.jpg",
+     "ratio": "75 / 32"
+    }
+   ],
+   "still": "m/stranger-than-fiction/tile.jpg",
+   "poster": "m/stranger-than-fiction/tile.jpg"
+  },
+  "fore": {
+   "gallery": [
+    {
+     "type": "image",
+     "src": "m/fore/g01.jpg",
+     "ratio": "600 / 253"
+    },
+    {
+     "type": "image",
+     "src": "m/fore/g02.jpg",
+     "ratio": "600 / 253"
+    },
+    {
+     "type": "image",
+     "src": "m/fore/g03.jpg",
+     "ratio": "600 / 253"
+    }
+   ],
+   "still": "m/fore/tile.jpg",
+   "poster": "m/fore/tile.jpg"
+  },
+  "sci-channel": {
+   "gallery": [
+    {
+     "type": "image",
+     "src": "m/sci-channel/g01.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/sci-channel/g02.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/sci-channel/g03.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/sci-channel/g04.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/sci-channel/g05.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/sci-channel/g06.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/sci-channel/g07.jpg"
+    },
+    {
+     "type": "image",
+     "src": "m/sci-channel/g08.jpg",
+     "ratio": "1169 / 746"
+    },
+    {
+     "type": "image",
+     "src": "m/sci-channel/g09.jpg",
+     "ratio": "1878 / 955"
+    }
+   ],
+   "still": "m/sci-channel/tile.jpg",
+   "poster": "m/sci-channel/tile.jpg"
+  }
+ },
+ "notes": [
+  "kda-ill-show-you: skipped gallery-02.mp4 (same file as another)",
+  "nightcrawler: skipped gallery-03.jpg (same file as another)",
+  "mr-nobody: skipped gallery-04.jpg (same file as another)",
+  "stranger-than-fiction: skipped gallery-04.jpg (same file as another)",
+  "fore: skipped gallery-02.jpg (same file as another)",
+  "sci-channel: skipped gallery-02.jpg (same file as another)"
+ ]
+}

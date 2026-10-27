@@ -1,0 +1,41 @@
+{
+  "name": "Eugene Hyun",
+  "title_line": "Motion Designer · Los Angeles",
+  "tagline": "Motion Designer Based in Los Angeles",
+  "domain": "https://ehyun.design",
+  "email": "hello@ehyun.design",
+  "reel": { "url": "https://vimeo.com/854529844", "label": "Demo Reel" },
+  "social": [
+    ["LinkedIn", "https://www.linkedin.com/in/eugene-hyun-b1a449105/"],
+    ["Instagram", "https://www.instagram.com/ehyun.design/"],
+    ["Behance", "https://www.behance.net/Eugenehyunf9e5"]
+  ],
+  "about": {
+    "bio": [
+      "Eugene Hyun is a motion designer based in Los Angeles, working across games, film, television and brand. Recent work includes launch campaigns for Battlefield 6 and REDSEC for Electronic Arts and show packages for FX.",
+      "Before that he designed and animated main titles and show packages at Elastic, trailers at BOND, and title work at Imaginary Forces. He works in 2D and 3D, with Cinema 4D and Redshift at the core of his pipeline, and teaches Motion Design at ArtCenter College of Design."
+    ],
+    "clients": ["Electronic Arts", "FX", "Netflix", "WhatsApp", "Canoo", "Tesla", "NFL", "Elastic", "Imaginary Forces", "BOND", "Logan.TV"],
+    "experience": [
+      ["Electronic Arts", "Motion Designer", "Present"],
+      ["FX", "Contract Senior Motion Designer", "2023–2024"],
+      ["ArtCenter College of Design", "Instructor, Motion Design", "2023–"],
+      ["NFL", "Contract Motion Designer", "2023"],
+      ["BOND", "Motion Designer", "2022"],
+      ["Elastic", "Motion Designer", "2020–2022"],
+      ["Imaginary Forces", "Motion Design Intern", "2020"],
+      ["Tesla", "Design Intern", "2020"],
+      ["Canoo", "Design Intern", "2019"]
+    ],
+    "recognition": [
+      ["Emmy Awards", "Nominee", "2021"],
+      ["Clio Awards", "Silver", "2021"],
+      ["The One Show — Young Ones", "Winner", "2021"],
+      ["Adobe Achievement Awards", "Top Talent", "2018"]
+    ],
+    "education": [
+      ["ArtCenter College of Design", "BFA, Graphic Design", "2020"]
+    ]
+  },
+  "removed_slugs": ["avelo-smart-shoes", "kpvm-pahrump", "leave-no-trace", "tiny-tinas-wonderland", "good-night-oppy", "between-the-world-and-me", "nier-automata-v01", "canoo-built-for-you-2", "oppenheimer", "mortal-kombat-30", "gotham-knights", "forspoken", "the-peripheral"]
+}
