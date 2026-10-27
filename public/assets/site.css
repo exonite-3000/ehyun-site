@@ -38,8 +38,8 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
 header.site {
   position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5;
-  background: color-mix(in srgb, var(--bg) 88%, transparent);
-  backdrop-filter: blur(10px);
+  background: var(--bg);
+  border-bottom: 1px solid transparent;
 }
 header.site .wrap { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; padding-block: 18px; }
 .brand { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 14px; }
@@ -186,23 +186,27 @@ footer.site a:hover { color: var(--fg); }
 .frame > iframe.m { border: 0; }
 .reel .frame .ghost { color: rgba(255,255,255,.1); }
 
-/* about: mirrors the old ehyun.design/about layout */
-.about { display: grid; gap: clamp(48px, 7vw, 88px); padding-block: clamp(48px, 9vw, 120px) 96px; }
-.about section { display: grid; gap: 22px; }
-.about h2 { margin: 0; font-family: var(--display); font-weight: 600; font-size: 15px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--fg); }
+/* about: mirrors the old ehyun.design/about layout. Every line sits on one 24px rhythm so both columns line up. */
+.about { --lh: 24px; display: grid; gap: 72px; padding-block: clamp(48px, 8vw, 104px) 96px; font-size: 15px; line-height: var(--lh); }
+.about section { display: grid; gap: 20px; }
+.about h2 { margin: 0; font-family: var(--display); font-weight: 600; font-size: 15px; line-height: var(--lh); letter-spacing: 0.2em; text-transform: uppercase; color: var(--fg); }
+.about p { margin: 0; }
 .about ul { list-style: none; margin: 0; padding: 0; display: grid; }
-.about .cv { gap: 26px; }
-.about .cv li { display: grid; grid-template-columns: 1fr; gap: 6px; }
-@media (min-width: 700px) { .about .cv li { grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); gap: 24px; } }
-.about .cv .l, .about .cv .rt { display: grid; gap: 2px; align-content: start; min-width: 0; }
+.about .cv { gap: 24px; }
+.about .cv li { display: grid; grid-template-columns: 1fr; gap: 8px; }
+@media (min-width: 760px) { .about .cv li { grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); gap: 32px; } }
+.about .cv .l, .about .cv .rt { display: flex; flex-direction: column; min-width: 0; }
+.about .cv .l > *, .about .cv .rt > * { line-height: var(--lh); overflow-wrap: anywhere; }
 .about .cv .d { font-family: var(--mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--fg); }
-.about .cv .o { color: var(--fg); }
+.about .cv .o, .about .cv .t { color: var(--fg); }
 .about .cv .loc { color: var(--muted); }
-.about .cv .t { color: var(--fg); }
-.about .cv p { margin: 0; color: #a9aeb7; max-width: 64ch; }
-.about .list { gap: 6px; }
-.about .list .r { font-family: var(--mono); font-size: 12px; letter-spacing: 0.12em; color: var(--muted); margin-left: 10px; }
-.about .sub-h { margin: 18px 0 2px; font-family: var(--mono); font-size: 12px; letter-spacing: 0.135em; text-transform: uppercase; color: var(--muted); }
+.about .cv p { color: #a9aeb7; max-width: 62ch; }
+.about .list { gap: 4px; }
+.about .list li { line-height: var(--lh); }
+.about .list .r { font-family: var(--mono); font-size: 12px; letter-spacing: 0.12em; color: var(--muted); margin-left: 12px; white-space: nowrap; }
+.about .sub-h { margin: 28px 0 8px; font-family: var(--mono); font-size: 12px; line-height: var(--lh); letter-spacing: 0.135em; text-transform: uppercase; color: var(--muted); }
 .about a.u { text-decoration: underline; text-underline-offset: 3px; }
+@media (max-width: 759px) { .about { gap: 56px; } .about .cv { gap: 32px; } }
 .e404 { min-height: 50vh; display: grid; align-content: center; gap: 16px; padding-block: 96px; }
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+@media (max-width: 520px) { .brand .title { display: none; } }
