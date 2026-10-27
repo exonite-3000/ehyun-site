@@ -14,6 +14,8 @@ from urllib.parse import urlparse, parse_qs
 ROOT = os.path.dirname(os.path.abspath(__file__))
 PUB = os.path.join(ROOT, 'public')
 J = lambda p: json.load(open(os.path.join(ROOT, p), encoding='utf-8'))
+import hashlib
+ASSET_V = hashlib.md5(open('public/assets/site.css','rb').read() + open('public/assets/site.js','rb').read()).hexdigest()[:8]
 SITE, ALL, MEDIA = J('content/site.json'), J('content/projects.json'), J('content/media.json')
 BYSLUG = {p['slug']: p for p in ALL}
 ORDER = [s for s in MEDIA['order'] if s in BYSLUG]
@@ -93,7 +95,7 @@ def page(title, body, base, desc='', og_img='', path='', nav=None):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300..800&family=JetBrains+Mono:wght@300..800&family=IBM+Plex+Mono:wght@400;500&display=swap">
-<link rel="stylesheet" href="{base}assets/site.css">
+<link rel="stylesheet" href="{base}assets/site.css?v={ASSET_V}">
 </head>
 <body>
 <header class="site"><div class="wrap">
@@ -110,7 +112,7 @@ def page(title, body, base, desc='', og_img='', path='', nav=None):
     {social}
   </nav>
 </div></footer>
-<script src="{base}assets/site.js" defer></script>
+<script src="{base}assets/site.js?v={ASSET_V}" defer></script>
 </body>
 </html>
 '''
@@ -208,24 +210,23 @@ def build_project(i, p):
 def build_about():
     base = '../'
     ab = SITE['about']
-    def entries(L, org_right=False):
+    def entries(L):
         out = '<ul class="cv">'
         for x in L:
-            lk = [('dates', 'd'), ('location', 'loc')] if org_right else [('dates', 'd'), ('org', 'o'), ('location', 'loc')]
-            left = ''.join(f'<span class="{c}">{e(x[k])}</span>' for k, c in lk if x.get(k))
-            right = (f'<span class="o">{e(x["org"])}</span>' if org_right else '') + f'<span class="t">{e(x["title"])}</span>' + (f'<p>{e(x["desc"])}</p>' if x.get('desc') else '')
-            out += f'<li><div class="l">{left}</div><div class="rt">{right}</div></li>'
+            meta = ' · '.join(v for v in [x['dates'], x.get('location')] if v)
+            out += (f'<li><div class="cv-h"><span class="org">{e(x["org"])}</span><span class="r">{e(meta)}</span></div>'
+                    f'<div class="cv-t">{e(x["title"])}</div>' + (f'<p>{e(x["desc"])}</p>' if x.get('desc') else '') + '</li>')
         return out + '</ul>'
-    rec = '<ul class="list">' + ''.join(f'<li>{e(n)}<span class="r">{e(d)}</span></li>' for n, d in ab['recognition']) + '</ul>'
-    gal = '<p class="sub-h">ArtCenter Student Gallery</p><ul class="list">' + ''.join(f'<li>{e(g)}</li>' for g in ab['student_gallery']) + '</ul>'
+    rec = '<ul>' + ''.join(f'<li><span>{e(n)}</span><span class="r">{e(d)}</span></li>' for n, d in ab['recognition']) + '</ul>'
+    gal = '<p class="sub-h">ArtCenter Student Gallery</p><ul>' + ''.join(f'<li><span>{e(g)}</span></li>' for g in ab['student_gallery']) + '</ul>'
     body = f'''<div class="wrap">
-  <h1 class="sr-only">About</h1>
+  <div class="p-head"><h1>About</h1><div class="sub">{e(SITE["title_line"])}</div></div>
   <div class="about">
-    <section><h2>Education</h2>{entries(ab["education"], org_right=True)}</section>
     <section><h2>Experience</h2>{entries(ab["experience"])}</section>
-    <section><h2>Recognition</h2><div>{rec}{gal}</div></section>
+    <section><h2>Education</h2>{entries(ab["education"])}</section>
+    <section><h2>Recognition</h2><div class="stack">{rec}{gal}</div></section>
     <section><h2>Public Speaking</h2>{entries(ab["speaking"])}</section>
-    <section><h2>Contact</h2><p><a class="u" href="mailto:{e(SITE["email"])}">{e(SITE["email"])}</a></p></section>
+    <section><h2>Contact</h2><div class="txt"><p><a class="u" href="mailto:{e(SITE["email"])}">{e(SITE["email"])}</a></p></div></section>
   </div>
 </div>'''
     write('about/index.html', page(f'About · {SITE["name"]}', body, base, f'{SITE["name"]}: motion designer based in Los Angeles. Experience, education and recognition.', '', 'about/', 'about'))

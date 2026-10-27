@@ -186,27 +186,28 @@ footer.site a:hover { color: var(--fg); }
 .frame > iframe.m { border: 0; }
 .reel .frame .ghost { color: rgba(255,255,255,.1); }
 
-/* about: mirrors the old ehyun.design/about layout. Every line sits on one 24px rhythm so both columns line up. */
-.about { --lh: 24px; display: grid; gap: 72px; padding-block: clamp(48px, 8vw, 104px) 96px; font-size: 15px; line-height: var(--lh); }
-.about section { display: grid; gap: 20px; }
-.about h2 { margin: 0; font-family: var(--display); font-weight: 600; font-size: 15px; line-height: var(--lh); letter-spacing: 0.2em; text-transform: uppercase; color: var(--fg); }
-.about p { margin: 0; }
-.about ul { list-style: none; margin: 0; padding: 0; display: grid; }
-.about .cv { gap: 24px; }
-.about .cv li { display: grid; grid-template-columns: 1fr; gap: 8px; }
-@media (min-width: 760px) { .about .cv li { grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); gap: 32px; } }
-.about .cv .l, .about .cv .rt { display: flex; flex-direction: column; min-width: 0; }
-.about .cv .l > *, .about .cv .rt > * { line-height: var(--lh); overflow-wrap: anywhere; }
-.about .cv .d { font-family: var(--mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--fg); }
-.about .cv .o, .about .cv .t { color: var(--fg); }
-.about .cv .loc { color: var(--muted); }
-.about .cv p { color: #a9aeb7; max-width: 62ch; }
-.about .list { gap: 4px; }
-.about .list li { line-height: var(--lh); }
-.about .list .r { font-family: var(--mono); font-size: 12px; letter-spacing: 0.12em; color: var(--muted); margin-left: 12px; white-space: nowrap; }
-.about .sub-h { margin: 28px 0 8px; font-family: var(--mono); font-size: 12px; line-height: var(--lh); letter-spacing: 0.135em; text-transform: uppercase; color: var(--muted); }
+/* about */
+.about { display: grid; gap: clamp(28px, 5vw, 56px); padding-bottom: 96px; }
+.about section { border-top: 1px solid var(--line); padding-top: 28px; display: grid; gap: 16px; grid-template-columns: 1fr; }
+@media (min-width: 900px) { .about section { grid-template-columns: 1fr 2fr; gap: 48px; } }
+.about h2 { margin: 0; font-family: var(--mono); font-weight: 500; font-size: 12px; letter-spacing: 0.225em; text-transform: uppercase; color: var(--muted); }
+.about .txt { max-width: 64ch; min-width: 0; display: grid; gap: 1em; color: #cfd3da; font-size: 16px; }
+.about .txt p { margin: 0; }
+.about ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.about li { display: grid; grid-template-columns: minmax(0, 1fr); gap: 2px; }
+@media (min-width: 560px) { .about li { grid-template-columns: minmax(0, 1fr) auto; gap: 24px; } }
+.about li .r { font-family: var(--mono); font-size: 11.5px; letter-spacing: 0.135em; text-transform: uppercase; color: var(--muted); }
+.about .clients { display: flex; flex-wrap: wrap; gap: 8px 22px; font-family: var(--display); font-size: 13px; letter-spacing: 0.14em; text-transform: uppercase; }
 .about a.u { text-decoration: underline; text-underline-offset: 3px; }
-@media (max-width: 759px) { .about { gap: 56px; } .about .cv { gap: 32px; } }
+.e404 { min-height: 50vh; display: grid; align-content: center; gap: 16px; padding-block: 96px; }
+.about .cv { gap: 22px; }
+.about .cv li { display: grid; gap: 4px; grid-template-columns: 1fr; }
+.about .cv-h { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 16px; align-items: baseline; }
+.about .cv-h .org { font-family: var(--display); font-weight: 600; font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase; }
+.about .cv-t { color: var(--fg); }
+.about .cv p { margin: 0; color: #a9aeb7; max-width: 64ch; }
+.about .stack { display: grid; gap: 18px; min-width: 0; }
+.about .sub-h { margin: 8px 0 0; font-family: var(--mono); font-size: 11.5px; letter-spacing: 0.135em; text-transform: uppercase; color: var(--muted); }
 .e404 { min-height: 50vh; display: grid; align-content: center; gap: 16px; padding-block: 96px; }
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 @media (max-width: 520px) { .brand .title { display: none; } }
